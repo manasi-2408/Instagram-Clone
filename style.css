@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(12, 16, 20, 1);
+    font-family: sans-serif;
+    color: white;
+}
+
+/* image */
+.img img {
+    height: 450px;
+}
+
+/* main */
+.main {
+    margin-top: 60px;
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+input {
+    border: 1px solid rgba(85, 85, 85, 1);
+    background-color: rgba(37, 41, 46, 1);
+    padding: 10px;
+    margin: 3px;
+    font-size: 12px;
+    width: 20vw;
+    border-radius: 3px;
+}
+
+button {
+    background-color: rgba(75, 93, 249, 1);
+    border: none;
+    border-radius: 10px;
+    width: 22vw;
+    padding: 8px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.or-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0;
+    color: rgba(168, 168, 168, 1);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.or-wrap {
+    display: flex;
+    align-items: center;
+    width: 22vw;                 
+    margin: 20px auto;         
+    gap: 12px;
+    color: rgba(168, 168, 168, 1);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.or-wrap hr {
+    flex: 1;
+    border: none;
+    height: 1px;                
+    background-color: rgba(255, 255, 255, 0.25); 
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.face a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: rgba(0, 149, 246, 1);
+    font-size: 15px;
+}
+
+.face a:hover {
+    opacity: 0.8;
+}
+
+
+.forgot {
+    cursor: pointer;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.signin {
+    cursor: pointer;
+    margin-top: 45px;
+    font-size: 14px;
+}
+
+.signin a {
+    font-weight: bold;
+    color: rgb(98, 43, 226);
+}
+
+/* footer */
+footer {
+    margin-top: 60px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.l,
+.l2,
+.l2 select {
+    margin: 0 8px;
+    color: rgba(168, 168, 168, 1);
+    font-size: 12px;
+}
+
+.l2 select {
+    border: none;
+    background-color: rgba(12, 16, 20, 1);
+}
+
+.l2 {
+    margin-top: 20px;
+}
